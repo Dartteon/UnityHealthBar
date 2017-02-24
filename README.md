@@ -40,7 +40,7 @@ i.e `public override float GetRatio() { //calculate ratio here }`
 3) Drag HealthBar to your gameObject, and rename it accordingly (i.e ManaSystem)  
 4) Ensure that the BarUI in HealthBar gets initialized to observe your class. Here is an example, for a class `ManaSystem`, with the HealthBar gameObject renamed to ManaBar
 ```
-    manaSystem = transform.GetComponent<ManaSystem> ();  
+    Transform manaSystem = transform.GetComponent<ManaSystem> ();  
     manaSystem.Initialize (100f);  
     BarUI barUi = transform.Find("ManaBar").GetComponent<BarUI> ();  
     barUi.Initialize (manaSystem);
