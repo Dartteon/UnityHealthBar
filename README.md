@@ -1,6 +1,10 @@
 # UnityHealthBar
 This is a starter kit for a health bar system in Unity.
 
+
+![alt text][sampleImage]
+[sampleImage]: https://github.com/Dartteon/UnityHealthBar/blob/master/GithubImage.PNG "Sample"
+
 ##Importing to Your Project
 Simply open your Unity project, and then double-click the package file (HealthBarStarterPack.unitypackage).  
 A popup will appear in Unity to prompt you - click "Import", and all the needed files will be inside your project.
